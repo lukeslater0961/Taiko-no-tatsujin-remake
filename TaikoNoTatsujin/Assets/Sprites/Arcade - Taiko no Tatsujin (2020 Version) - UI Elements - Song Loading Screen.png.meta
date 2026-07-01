@@ -1,0 +1,503 @@
+fileFormatVersion: 2
+guid: ff2e6112b4bc7ea18b7252d384504de5
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin (2020 Version) - UI Elements - Song Loading
+        Screen_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 949
+        width: 961
+        height: 1081
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b3c6cf5f56a40a6fab1d3beab160654
+      internalID: -993073314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin (2020 Version) - UI Elements - Song Loading
+        Screen_1
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 949
+        width: 962
+        height: 1081
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da1b2dc263cdba36f875c406d0787662
+      internalID: -1289478847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin (2020 Version) - UI Elements - Song Loading
+        Screen_2
+      rect:
+        serializedVersion: 2
+        x: 2025
+        y: 1539
+        width: 1213
+        height: 425
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b5018f9f1036f2a1aff000a38b554ab
+      internalID: 611609096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin (2020 Version) - UI Elements - Song Loading
+        Screen_3
+      rect:
+        serializedVersion: 2
+        x: 3375
+        y: 1542
+        width: 458
+        height: 445
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dd4e7d2ba6fb1e3ebdf74996143e490
+      internalID: 1234251068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin (2020 Version) - UI Elements - Song Loading
+        Screen_4
+      rect:
+        serializedVersion: 2
+        x: 3865
+        y: 0
+        width: 1352
+        height: 2030
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 930f186dceaeec736a940c19c413659e
+      internalID: 254251899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin (2020 Version) - UI Elements - Song Loading
+        Screen_5
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 986
+        width: 570
+        height: 397
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7641f80301106507589fa43e1f86ecbb
+      internalID: 1951207763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin (2020 Version) - UI Elements - Song Loading
+        Screen_6
+      rect:
+        serializedVersion: 2
+        x: 2361
+        y: 1253
+        width: 527
+        height: 173
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cf7aa3f72eb433359fe60784e6974f4
+      internalID: -717514315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin (2020 Version) - UI Elements - Song Loading
+        Screen_7
+      rect:
+        serializedVersion: 2
+        x: 3375
+        y: 974
+        width: 458
+        height: 445
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aca3bfeff2f0e97194ce29c6eb9daab
+      internalID: -919573068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin (2020 Version) - UI Elements - Song Loading
+        Screen_8
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 414
+        width: 1353
+        height: 502
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f6b908c302d006be9285b9056a511fd
+      internalID: -992764901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin (2020 Version) - UI Elements - Song Loading
+        Screen_9
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 758
+        width: 423
+        height: 171
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e71fa2a52f0aa0aef9a6a0f4923dd9a1
+      internalID: 529342454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin (2020 Version) - UI Elements - Song Loading
+        Screen_10
+      rect:
+        serializedVersion: 2
+        x: 2025
+        y: 435
+        width: 1213
+        height: 425
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5007137112f4388acb493c4b65d13304
+      internalID: -1430188678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin (2020 Version) - UI Elements - Song Loading
+        Screen_11
+      rect:
+        serializedVersion: 2
+        x: 3373
+        y: 637
+        width: 429
+        height: 244
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0cfe1cd8ea565e6aa34e96c20f2f9e1
+      internalID: -910326983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin (2020 Version) - UI Elements - Song Loading
+        Screen_12
+      rect:
+        serializedVersion: 2
+        x: 1391
+        y: 493
+        width: 11
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8464a45331bd719e88254add18194aa3
+      internalID: 1324703754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin (2020 Version) - UI Elements - Song Loading
+        Screen_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 134
+        width: 1600
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b98ebbd5c7f632a02a848e5f787eedbe
+      internalID: 841047974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin (2020 Version) - UI Elements - Song Loading
+        Screen_14
+      rect:
+        serializedVersion: 2
+        x: 1930
+        y: 213
+        width: 1924
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75533a9609feae877b114ffc1553a03d
+      internalID: 2060104249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin (2020 Version) - UI Elements - Song Loading
+        Screen_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1929
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeba373ab764acc8cb58ed3eb248cf16
+      internalID: 397084430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: dc162417771427730b91c27c980694f2
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Arcade - Taiko no Tatsujin (2020 Version) - UI Elements - Song Loading Screen_0: -993073314
+      Arcade - Taiko no Tatsujin (2020 Version) - UI Elements - Song Loading Screen_1: -1289478847
+      Arcade - Taiko no Tatsujin (2020 Version) - UI Elements - Song Loading Screen_10: -1430188678
+      Arcade - Taiko no Tatsujin (2020 Version) - UI Elements - Song Loading Screen_11: -910326983
+      Arcade - Taiko no Tatsujin (2020 Version) - UI Elements - Song Loading Screen_12: 1324703754
+      Arcade - Taiko no Tatsujin (2020 Version) - UI Elements - Song Loading Screen_13: 841047974
+      Arcade - Taiko no Tatsujin (2020 Version) - UI Elements - Song Loading Screen_14: 2060104249
+      Arcade - Taiko no Tatsujin (2020 Version) - UI Elements - Song Loading Screen_15: 397084430
+      Arcade - Taiko no Tatsujin (2020 Version) - UI Elements - Song Loading Screen_2: 611609096
+      Arcade - Taiko no Tatsujin (2020 Version) - UI Elements - Song Loading Screen_3: 1234251068
+      Arcade - Taiko no Tatsujin (2020 Version) - UI Elements - Song Loading Screen_4: 254251899
+      Arcade - Taiko no Tatsujin (2020 Version) - UI Elements - Song Loading Screen_5: 1951207763
+      Arcade - Taiko no Tatsujin (2020 Version) - UI Elements - Song Loading Screen_6: -717514315
+      Arcade - Taiko no Tatsujin (2020 Version) - UI Elements - Song Loading Screen_7: -919573068
+      Arcade - Taiko no Tatsujin (2020 Version) - UI Elements - Song Loading Screen_8: -992764901
+      Arcade - Taiko no Tatsujin (2020 Version) - UI Elements - Song Loading Screen_9: 529342454
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

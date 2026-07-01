@@ -1,0 +1,832 @@
+fileFormatVersion: 2
+guid: 310b11ee164596faea696b0aeb66d82c
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin (2020 Version) - UI Elements - Combo Numbers_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1936
+        width: 56
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9961eff73abd0d30b8753344c141e988
+      internalID: -710798211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin (2020 Version) - UI Elements - Combo Numbers_1
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 1936
+        width: 56
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8419b5703cf53d28d99c48c55a802c42
+      internalID: 61475183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin (2020 Version) - UI Elements - Combo Numbers_2
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1848
+        width: 42
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ac08cff9d97df7ea9e8d4d96fa3ef9a
+      internalID: -1475524383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin (2020 Version) - UI Elements - Combo Numbers_3
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 1848
+        width: 60
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14eace614fe23da1aa8491be536f863b
+      internalID: -967724234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin (2020 Version) - UI Elements - Combo Numbers_4
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1760
+        width: 58
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb8d580c5dae2a34392abd263a926f69
+      internalID: -620840134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin (2020 Version) - UI Elements - Combo Numbers_5
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 1760
+        width: 56
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eb58587e72e8fc288218839baa8414b
+      internalID: 386414631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin (2020 Version) - UI Elements - Combo Numbers_6
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1672
+        width: 56
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 080592e0928a925e69cf0e6333961b62
+      internalID: 2141024788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin (2020 Version) - UI Elements - Combo Numbers_7
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 1672
+        width: 54
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 530985267b4189aceb54dabf98358f65
+      internalID: 1694434873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin (2020 Version) - UI Elements - Combo Numbers_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1584
+        width: 60
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b58b780f05730bafd8915ab6b6b655ff
+      internalID: 1886963165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin (2020 Version) - UI Elements - Combo Numbers_9
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 1584
+        width: 56
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab15dd2360aeca94f8bf68a07c7ccde5
+      internalID: 27361576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin (2020 Version) - UI Elements - Combo Numbers_10
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1496
+        width: 56
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72d1456813b2688ada5e3e599eae9bd2
+      internalID: -1048162358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin (2020 Version) - UI Elements - Combo Numbers_11
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 1496
+        width: 56
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c57722b0aaa0462968d562819421a2af
+      internalID: -850920095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin (2020 Version) - UI Elements - Combo Numbers_12
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1408
+        width: 54
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c20aa2e26579205c8cddca76413fd0d
+      internalID: -1388343725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin (2020 Version) - UI Elements - Combo Numbers_13
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 1408
+        width: 56
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ada1d26df6484974a8d17d6d818d044
+      internalID: 1291386996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin (2020 Version) - UI Elements - Combo Numbers_14
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1320
+        width: 56
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1089e5ba93c5a1096a40b437ba2e26b5
+      internalID: 1211578161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin (2020 Version) - UI Elements - Combo Numbers_15
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 1372
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 657e3a40f688a164ebadf5d648a14612
+      internalID: -2046499229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin (2020 Version) - UI Elements - Combo Numbers_16
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1232
+        width: 56
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a0d6ea3a6e7d28abbfc03b33a2418a3
+      internalID: 1916605451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin (2020 Version) - UI Elements - Combo Numbers_17
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1144
+        width: 56
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cebee63b5843f5f98a0508407dc1a87
+      internalID: 1919013316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin (2020 Version) - UI Elements - Combo Numbers_18
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1056
+        width: 56
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8047afb3cb2542453bb45143c4ac9a24
+      internalID: 684566471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin (2020 Version) - UI Elements - Combo Numbers_19
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 968
+        width: 42
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52cab1aa86abcdcd398380244716ffe4
+      internalID: -1825355942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin (2020 Version) - UI Elements - Combo Numbers_20
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 880
+        width: 58
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0692f936a464c00d8a0903091f3846b
+      internalID: 2126055196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin (2020 Version) - UI Elements - Combo Numbers_21
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 792
+        width: 56
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1da7ab1a9b156839b1217379b866348
+      internalID: 1150363938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin (2020 Version) - UI Elements - Combo Numbers_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 704
+        width: 60
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6affd2a46c9672babb14f84df1c0bf7
+      internalID: 967930317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin (2020 Version) - UI Elements - Combo Numbers_23
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 616
+        width: 56
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe841e22b656274249181bcc69e07f53
+      internalID: 1399563546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin (2020 Version) - UI Elements - Combo Numbers_24
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 528
+        width: 54
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fe997d1e09f79aa9a2786aecc256676
+      internalID: -877552508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin (2020 Version) - UI Elements - Combo Numbers_25
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 440
+        width: 56
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f6f936b1b63373ac85e72a06f6228f5
+      internalID: 1739010086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin (2020 Version) - UI Elements - Combo Numbers_26
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 352
+        width: 56
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98dd5762841a98c109a21b9264c0a476
+      internalID: 444264883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin (2020 Version) - UI Elements - Combo Numbers_27
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 264
+        width: 56
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bc0b5fe1f3798eba9f28ce193837d92
+      internalID: 1422604829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin (2020 Version) - UI Elements - Combo Numbers_28
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 176
+        width: 56
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4279ede15f97d3be7bf26d4b4afd0542
+      internalID: 1324374134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin (2020 Version) - UI Elements - Combo Numbers_29
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 88
+        width: 42
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbb0ddec2413f2ec7a6138bcccd5c896
+      internalID: 1225836692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Taiko no Tatsujin (2020 Version) - UI Elements - Combo Numbers_30
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 0
+        width: 58
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a33a2f452eb838fbabbfdb2161e6b02
+      internalID: 2085245308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: edcbf7c870f2b79b68baa106ae7fb1ce
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Arcade - Taiko no Tatsujin (2020 Version) - UI Elements - Combo Numbers_0: -710798211
+      Arcade - Taiko no Tatsujin (2020 Version) - UI Elements - Combo Numbers_1: 61475183
+      Arcade - Taiko no Tatsujin (2020 Version) - UI Elements - Combo Numbers_10: -1048162358
+      Arcade - Taiko no Tatsujin (2020 Version) - UI Elements - Combo Numbers_11: -850920095
+      Arcade - Taiko no Tatsujin (2020 Version) - UI Elements - Combo Numbers_12: -1388343725
+      Arcade - Taiko no Tatsujin (2020 Version) - UI Elements - Combo Numbers_13: 1291386996
+      Arcade - Taiko no Tatsujin (2020 Version) - UI Elements - Combo Numbers_14: 1211578161
+      Arcade - Taiko no Tatsujin (2020 Version) - UI Elements - Combo Numbers_15: -2046499229
+      Arcade - Taiko no Tatsujin (2020 Version) - UI Elements - Combo Numbers_16: 1916605451
+      Arcade - Taiko no Tatsujin (2020 Version) - UI Elements - Combo Numbers_17: 1919013316
+      Arcade - Taiko no Tatsujin (2020 Version) - UI Elements - Combo Numbers_18: 684566471
+      Arcade - Taiko no Tatsujin (2020 Version) - UI Elements - Combo Numbers_19: -1825355942
+      Arcade - Taiko no Tatsujin (2020 Version) - UI Elements - Combo Numbers_2: -1475524383
+      Arcade - Taiko no Tatsujin (2020 Version) - UI Elements - Combo Numbers_20: 2126055196
+      Arcade - Taiko no Tatsujin (2020 Version) - UI Elements - Combo Numbers_21: 1150363938
+      Arcade - Taiko no Tatsujin (2020 Version) - UI Elements - Combo Numbers_22: 967930317
+      Arcade - Taiko no Tatsujin (2020 Version) - UI Elements - Combo Numbers_23: 1399563546
+      Arcade - Taiko no Tatsujin (2020 Version) - UI Elements - Combo Numbers_24: -877552508
+      Arcade - Taiko no Tatsujin (2020 Version) - UI Elements - Combo Numbers_25: 1739010086
+      Arcade - Taiko no Tatsujin (2020 Version) - UI Elements - Combo Numbers_26: 444264883
+      Arcade - Taiko no Tatsujin (2020 Version) - UI Elements - Combo Numbers_27: 1422604829
+      Arcade - Taiko no Tatsujin (2020 Version) - UI Elements - Combo Numbers_28: 1324374134
+      Arcade - Taiko no Tatsujin (2020 Version) - UI Elements - Combo Numbers_29: 1225836692
+      Arcade - Taiko no Tatsujin (2020 Version) - UI Elements - Combo Numbers_3: -967724234
+      Arcade - Taiko no Tatsujin (2020 Version) - UI Elements - Combo Numbers_30: 2085245308
+      Arcade - Taiko no Tatsujin (2020 Version) - UI Elements - Combo Numbers_4: -620840134
+      Arcade - Taiko no Tatsujin (2020 Version) - UI Elements - Combo Numbers_5: 386414631
+      Arcade - Taiko no Tatsujin (2020 Version) - UI Elements - Combo Numbers_6: 2141024788
+      Arcade - Taiko no Tatsujin (2020 Version) - UI Elements - Combo Numbers_7: 1694434873
+      Arcade - Taiko no Tatsujin (2020 Version) - UI Elements - Combo Numbers_8: 1886963165
+      Arcade - Taiko no Tatsujin (2020 Version) - UI Elements - Combo Numbers_9: 27361576
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
