@@ -36,11 +36,17 @@ public class Metronome : MonoBehaviour
 		StartCoroutine(UpdateBeat());
 	}//to be called when the level starts
 
+	public void StopMetronome()
+	{
+		StopCoroutine(UpdateBeat());
+	}
+
 	IEnumerator UpdateBeat()
 	{
 		while (true)
 		{
-			float position = Time.time * 1000; //get position in song in ms using AudioSource.time from music player
+			float position = Time.time * 1000; 
+			//get position in song in ms using AudioSource.time from music player
 
 			if (position >= activeBeatStartPosition)
 			{
