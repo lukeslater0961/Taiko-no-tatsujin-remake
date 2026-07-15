@@ -17,7 +17,8 @@ public struct Beat{
 [CreateAssetMenu]
 public class SongData : ScriptableObject 
 {
-	public string songName;
-	public List<Beat> beatChart;
-	public AudioClip song;
+	public string		songName;
+	public List<Beat>	beatChart;
+	public AudioClip	song;
+	public int			bpm;
 }

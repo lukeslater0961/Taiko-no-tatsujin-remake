@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class DebugManager : MonoBehaviour
 {
-	[SerializeField] bool isActive;
+	[SerializeField] bool isActive = false;
 
     void Start()
     {

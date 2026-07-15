@@ -8,33 +8,43 @@ public class Metronome : MonoBehaviour
 	[SerializeField] float margin = 80;
 
 	[SerializeField] float lastBeat;
-	[SerializeField] float activeBeat = -1;
+	public float activeBeat { get; private set; } = -1f;
 	[SerializeField] float activeBeatStartPosition;
 	[SerializeField] float activeBeatEndPosition;
 	[SerializeField] float nextBeatPosition;
 	
 	void Start()
 	{
-		//subscribe to game manager start level event
+		//
 		beatDuration = 60f / bpm * 1000;
 		nextBeatPosition = beatDuration;
 
 		activeBeatStartPosition = nextBeatPosition - margin;
 		activeBeatEndPosition = nextBeatPosition + margin;
+		//to be removed
+
+		LevelManager.setupLevel += SetupLevel;
+		LevelManager.startLevel += StartMetronome;
+		LevelManager.stopLevel += StopMetronome;
 
 		StartCoroutine(UpdateBeat());
-	}//for testing purposes
+		//
+		//for testing purposes
+	}
 
-	void SetupLevel(int newBpm)
+	void SetupLevel(SongData song)
 	{
-		beatDuration = 60f / newBpm * 1000;
+		beatDuration = 60f / song.bpm * 1000;
 		nextBeatPosition = beatDuration;
 
 		activeBeatStartPosition = nextBeatPosition - margin;
 		activeBeatEndPosition = nextBeatPosition + margin;
-
-		StartCoroutine(UpdateBeat());
 	}//to be called when the level starts
+
+	public void StartMetronome()
+	{
+		StartCoroutine(UpdateBeat());
+	}
 
 	public void StopMetronome()
 	{
