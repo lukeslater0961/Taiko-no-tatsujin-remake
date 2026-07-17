@@ -13,8 +13,7 @@ public class InputValidator : MonoBehaviour
 
     void Start()
     {
-		_metronome = FindFirstObjectByType<Metronome>();
-		_musicPlayer = FindFirstObjectByType<MusicPlayer>();
+		_metronome = FindAnyObjectByType<Metronome>();
 		currentInput = -1;
 		InputManager.beatPressed += HandleInput;
     }
@@ -24,11 +23,12 @@ public class InputValidator : MonoBehaviour
 		if (_metronome.activeBeat == -1)
 		{
 			currentInput = -1;
+			//reset combo
 			return;
 		}
 		currentInput = inputType;
 
-		//call function in composer to get current beat input with current time by taking marign into account
+		//call function in composer to get current beat input with current time by taking margin into account
 		//if return value from function(input) is incorrect call event to reset combo
 		//beatMissed?.Invoke();
 	}

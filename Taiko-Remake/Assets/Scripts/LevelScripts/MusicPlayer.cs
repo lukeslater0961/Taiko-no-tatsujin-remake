@@ -3,37 +3,47 @@ using System;
 
 public class MusicPlayer : MonoBehaviour
 {
-	public AudioSource _audioPlayer {get; private set;}
+	public static MusicPlayer	instance {get; private set;}
+	public AudioSource			audioSource {get; private set;}
+
 	[SerializeField] 
 	private string		_clipName;
 	
+	public float CurrentTime => audioSource.time;
+
+	void Awake()
+	{
+		instance = this;
+	}
+
 	void Start()
 	{
+		LevelManager.setupLevel += SetClip; 
 		LevelManager.startLevel += PlaySong;
 		LevelManager.pauseLevel += PauseSong;
 		LevelManager.stopLevel += StopSong;
 		//subscribe to SetClip event
-		_audioPlayer = GetComponent<AudioSource>();
+		audioSource = GetComponent<AudioSource>();
 	}
 	
-	public void SetClip(AudioClip song)
+	public void SetClip(SongData sData)
 	{
-		_audioPlayer.clip = song;
-		_clipName = _audioPlayer.clip.name;
+		audioSource.clip = sData.song;
+		_clipName = audioSource.clip.name;
 	}
 
 	public void PlaySong()
 	{
-		_audioPlayer.Play();
+		audioSource.Play();
 	}
 
 	public void PauseSong()
 	{
-		_audioPlayer.Pause();
+		audioSource.Pause();
 	}
 
 	public void StopSong()
 	{
-		_audioPlayer.Stop();
+		audioSource.Stop();
 	}
 }

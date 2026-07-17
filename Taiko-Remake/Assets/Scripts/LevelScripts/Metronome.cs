@@ -27,9 +27,10 @@ public class Metronome : MonoBehaviour
 		LevelManager.startLevel += StartMetronome;
 		LevelManager.stopLevel += StopMetronome;
 
+		//
 		StartCoroutine(UpdateBeat());
 		//
-		//for testing purposes
+		//to be removed	
 	}
 
 	void SetupLevel(SongData song)
@@ -56,6 +57,7 @@ public class Metronome : MonoBehaviour
 		while (true)
 		{
 			float position = Time.time * 1000; 
+			//float position = MusicPlayer.instance.audioSource.time; 
 			//get position in song in ms using AudioSource.time from music player
 
 			if (position >= activeBeatStartPosition)
