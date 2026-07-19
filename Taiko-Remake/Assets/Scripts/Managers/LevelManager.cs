@@ -22,18 +22,19 @@ public class LevelManager : MonoBehaviour
 	void Awake()
 	{
 		instance = this;
-	}
-
-    void Start()
-    {
 		_score = 0;
 		_combo = 0;
 		InputValidator.beatMissed += ResetCombo;
-    }
+	}
+
+	void StartLevel()
+	{
+		setupLevel?.Invoke(songCollection[0]);
+		startLevel?.Invoke();
+	}
 
 	void ResetCombo()
 	{
 		_combo = 0;
 	}
-	//note :: maybe have state machine
 }

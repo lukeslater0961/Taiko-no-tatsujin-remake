@@ -15,21 +15,19 @@ public class Metronome : MonoBehaviour
 	
 	void Start()
 	{
-		//
+		/*
 		beatDuration = 60f / bpm * 1000;
 		nextBeatPosition = beatDuration;
 
 		activeBeatStartPosition = nextBeatPosition - margin;
 		activeBeatEndPosition = nextBeatPosition + margin;
-		//to be removed
+		to be removed*/
 
 		LevelManager.setupLevel += SetupLevel;
 		LevelManager.startLevel += StartMetronome;
 		LevelManager.stopLevel += StopMetronome;
 
-		//
-		StartCoroutine(UpdateBeat());
-		//
+		//StartCoroutine(UpdateBeat());
 		//to be removed	
 	}
 
@@ -56,8 +54,8 @@ public class Metronome : MonoBehaviour
 	{
 		while (true)
 		{
-			float position = Time.time * 1000; 
-			//float position = MusicPlayer.instance.audioSource.time; 
+		//	float position = Time.time * 1000; 
+			float position = MusicPlayer.instance.audioSource.time; 
 			//get position in song in ms using AudioSource.time from music player
 
 			if (position >= activeBeatStartPosition)
@@ -67,6 +65,7 @@ public class Metronome : MonoBehaviour
 				nextBeatPosition += beatDuration;
 				activeBeatStartPosition = nextBeatPosition - margin;
 			}
+
 			if (position >= activeBeatEndPosition)
 			{
 				activeBeat = -1;

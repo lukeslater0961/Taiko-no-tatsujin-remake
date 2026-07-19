@@ -14,18 +14,14 @@ public class MusicPlayer : MonoBehaviour
 	void Awake()
 	{
 		instance = this;
-	}
-
-	void Start()
-	{
 		LevelManager.setupLevel += SetClip; 
 		LevelManager.startLevel += PlaySong;
 		LevelManager.pauseLevel += PauseSong;
 		LevelManager.stopLevel += StopSong;
-		//subscribe to SetClip event
+
 		audioSource = GetComponent<AudioSource>();
 	}
-	
+
 	public void SetClip(SongData sData)
 	{
 		audioSource.clip = sData.song;
