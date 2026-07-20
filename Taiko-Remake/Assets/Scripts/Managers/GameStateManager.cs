@@ -2,24 +2,25 @@ using UnityEngine;
 
 public class GameStateManager : MonoBehaviour
 {
+	public static GameStateManager instance;
+
 	public static MenuState menuState = new MenuState();
 	public static LevelState levelState = new LevelState();
+	public static SongSelectState songSelectState = new SongSelectState();
 
 	private BaseState currentState = null;
 
-	void Start()
+	void Awake()
 	{
-		SwitchState();
+		instance = this;
+		DontDestroyOnLoad(gameObject);
 	}
 
-	public void SwitchState()
+	public void SwitchState(BaseState state)
 	{
 		if (currentState != null)
 			currentState.OnExit(this);
-		if (currentState == menuState)
-			currentState = levelState;
-		else
-			currentState = menuState;
+		currentState = state;
 		currentState.OnEnter(this);
 	}
 }

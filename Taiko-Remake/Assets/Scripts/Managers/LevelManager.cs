@@ -25,12 +25,18 @@ public class LevelManager : MonoBehaviour
 		_score = 0;
 		_combo = 0;
 		InputValidator.beatMissed += ResetCombo;
+		DontDestroyOnLoad(gameObject);
 	}
 
-	void StartLevel()
+	public void StartLevel()
 	{
 		setupLevel?.Invoke(songCollection[0]);
 		startLevel?.Invoke();
+	}
+
+	public void StopLevel()
+	{
+		stopLevel?.Invoke();
 	}
 
 	void ResetCombo()

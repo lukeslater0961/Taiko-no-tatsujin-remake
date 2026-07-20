@@ -11,12 +11,17 @@ public class InputValidator : MonoBehaviour
 	private Metronome	_metronome;
 	private MusicPlayer _musicPlayer;
 
-    void Start()
+    void Awake()
     {
 		_metronome = FindAnyObjectByType<Metronome>();
 		currentInput = -1;
 		InputManager.beatPressed += HandleInput;
     }
+
+	void OnDisable()
+	{
+		InputManager.beatPressed -= HandleInput;
+	}
 
 	void HandleInput(int inputType)
 	{

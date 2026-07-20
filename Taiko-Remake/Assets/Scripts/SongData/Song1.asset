@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SongData
   songName: 
   beatChart: []
-  song: {fileID: 8300000, guid: 552841a181309451aa903b334a9e1300, type: 3}
+  song: {fileID: 8300000, guid: 72e9152f5735d42afa561e855215a87b, type: 3}
   bpm: 166

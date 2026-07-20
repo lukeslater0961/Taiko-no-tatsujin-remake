@@ -4,10 +4,11 @@ public class DebugManager : MonoBehaviour
 {
 	[SerializeField] bool isActive = false;
 
-    void Start()
+    void Awake()
     {
 		InputManager.confirmPressed += PrintConfirm;
 		InputManager.beatPressed += PrintDebug;
+		DontDestroyOnLoad(gameObject);
 	}
 
 	void PrintConfirm()

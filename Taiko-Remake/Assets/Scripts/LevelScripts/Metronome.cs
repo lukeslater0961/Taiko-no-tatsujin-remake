@@ -13,7 +13,7 @@ public class Metronome : MonoBehaviour
 	[SerializeField] float activeBeatEndPosition;
 	[SerializeField] float nextBeatPosition;
 	
-	void Start()
+	void Awake()
 	{
 		/*
 		beatDuration = 60f / bpm * 1000;
@@ -29,6 +29,13 @@ public class Metronome : MonoBehaviour
 
 		//StartCoroutine(UpdateBeat());
 		//to be removed	
+	}
+
+	void OnDisable()
+	{
+		LevelManager.setupLevel -= SetupLevel;
+		LevelManager.startLevel -= StartMetronome;
+		LevelManager.stopLevel -= StopMetronome;
 	}
 
 	void SetupLevel(SongData song)
