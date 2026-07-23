@@ -15,8 +15,12 @@ public class InputValidator : MonoBehaviour
     {
 		_metronome = FindAnyObjectByType<Metronome>();
 		currentInput = -1;
-		InputManager.beatPressed += HandleInput;
     }
+
+	void OnEnable()
+	{
+		InputManager.beatPressed += HandleInput;
+	}
 
 	void OnDisable()
 	{

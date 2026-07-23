@@ -14,12 +14,24 @@ public class MusicPlayer : MonoBehaviour
 	void Awake()
 	{
 		instance = this;
+		audioSource = GetComponent<AudioSource>();
+	}
+
+	void OnEnable()
+	{
+		Debug.Log("hello muci player");
 		LevelManager.setupLevel += SetClip; 
 		LevelManager.startLevel += PlaySong;
 		LevelManager.pauseLevel += PauseSong;
 		LevelManager.stopLevel += StopSong;
+	}
 
-		audioSource = GetComponent<AudioSource>();
+	void OnDisable()
+	{
+		LevelManager.setupLevel -= SetClip; 
+		LevelManager.startLevel -= PlaySong;
+		LevelManager.pauseLevel -= PauseSong;
+		LevelManager.stopLevel -= StopSong;
 	}
 
 	public void SetClip(SongData sData)
@@ -30,6 +42,8 @@ public class MusicPlayer : MonoBehaviour
 
 	public void PlaySong()
 	{
+
+		Debug.Log("Hello player start--");
 		audioSource.Play();
 	}
 

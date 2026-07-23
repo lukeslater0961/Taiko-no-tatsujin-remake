@@ -5,11 +5,17 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Test.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
     path: Assets/Scenes/MainMenu.unity
     guid: 7161b02cedb94496db8879bfe76e9158
+  - enabled: 1
+    path: Assets/Scenes/SongSelect.unity
+    guid: fe84dc15b1c294e7495a380c2cee3a9d
+  - enabled: 1
+    path: Assets/Scenes/Level.unity
+    guid: d78195dd18e8d475cb5230433210a6e2
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}

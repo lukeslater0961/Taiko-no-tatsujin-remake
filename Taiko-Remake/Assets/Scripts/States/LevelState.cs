@@ -6,7 +6,6 @@ public class LevelState : BaseState
 	{
 		Debug.Log("entered Level state");
 		LevelManager.instance.StartLevel();
-
 	}
 
 	public override void OnExit(GameStateManager manager)

@@ -21,11 +21,29 @@ public class LevelManager : MonoBehaviour
 
 	void Awake()
 	{
-		instance = this;
+		if (instance != this)
+		{
+			instance = this;
+			DontDestroyOnLoad(gameObject);
+		}
+		else 
+			Destroy(gameObject);
+	}
+
+	void Start()
+	{
 		_score = 0;
 		_combo = 0;
+	}
+
+	void OnEnable()
+	{
 		InputValidator.beatMissed += ResetCombo;
-		DontDestroyOnLoad(gameObject);
+	}
+
+	void OnDisable()
+	{
+		InputValidator.beatMissed -= ResetCombo;
 	}
 
 	public void StartLevel()

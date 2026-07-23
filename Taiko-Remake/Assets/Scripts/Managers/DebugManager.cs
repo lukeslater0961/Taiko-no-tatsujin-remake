@@ -6,9 +6,19 @@ public class DebugManager : MonoBehaviour
 
     void Awake()
     {
+		DontDestroyOnLoad(gameObject);
+	}
+
+	void OnEnable()
+	{
 		InputManager.confirmPressed += PrintConfirm;
 		InputManager.beatPressed += PrintDebug;
-		DontDestroyOnLoad(gameObject);
+	}
+
+	void OnDisable()
+	{
+		InputManager.confirmPressed -= PrintConfirm;
+		InputManager.beatPressed -= PrintDebug;
 	}
 
 	void PrintConfirm()
@@ -19,7 +29,7 @@ public class DebugManager : MonoBehaviour
 
 	void PrintDebug(int type)
 	{
-		if (!isActive)
+		if (isActive)
 			return;
 		switch (type){
 			case 0:

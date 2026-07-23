@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8e0cb0a150f840fe83cef0f3c39d61b, type: 3}
   m_Name: Song1
   m_EditorClassIdentifier: Assembly-CSharp::SongData
-  songName: 
+  songName: Oshi no ko
   beatChart: []
   song: {fileID: 8300000, guid: 72e9152f5735d42afa561e855215a87b, type: 3}
   bpm: 166

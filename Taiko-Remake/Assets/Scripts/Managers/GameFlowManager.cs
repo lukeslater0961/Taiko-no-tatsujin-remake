@@ -2,25 +2,30 @@ using UnityEngine;
 
 public class GameFlowManager : MonoBehaviour
 {
+	void Awake()
+	{
+		DontDestroyOnLoad(gameObject);
+	}
+
 	void Start()
 	{
-		GoToMenu();
-		DontDestroyOnLoad(gameObject);
+		QualitySettings.vSyncCount = 1;
+        GameStateManager.instance.SwitchState(GameStateManager.menuState);
 	}
 
     public void GoToMenu()
     {
-        GameStateManager..instance.SwitchState(GameStateManager.menuState);
+		SceneLoader.instance.LoadScene(0, GameStateManager.menuState);
     }
 
     public void GoToSelection()
     {
-        GameStateManager.instance.SwitchState(GameStateManager.songSelectState);
+		SceneLoader.instance.LoadScene(1, GameStateManager.songSelectState);
     }
 
     public void GoToLevel()
     {
-        GameStateManager..instance.SwitchState(GameStateManager.levelState);
+		SceneLoader.instance.LoadScene(2, GameStateManager.levelState);
     }
 
     public void QuitGame()
