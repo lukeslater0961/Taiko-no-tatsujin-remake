@@ -47,6 +47,7 @@ public class Metronome : MonoBehaviour
 
 	void SetupLevel(SongData song)
 	{
+		bpm = song.bpm;
 		beatDuration = 60f / song.bpm * 1000;
 		nextBeatPosition = beatDuration;
 

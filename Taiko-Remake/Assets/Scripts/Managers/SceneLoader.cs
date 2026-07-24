@@ -8,7 +8,7 @@ public class SceneLoader : MonoBehaviour
 
 	void Awake()
 	{
-		if (instance != this)
+		if (instance == null)
 		{
 			instance = this;
 			DontDestroyOnLoad(gameObject);

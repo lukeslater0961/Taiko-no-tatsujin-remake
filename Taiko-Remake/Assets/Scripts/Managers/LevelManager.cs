@@ -19,14 +19,18 @@ public class LevelManager : MonoBehaviour
 	[SerializeField]
 	private List<SongData> songCollection;
 
+	[SerializeField]
+	private int _currentSong;
+
 	void Awake()
 	{
-		if (instance != this)
+
+		if (instance == null)
 		{
 			instance = this;
 			DontDestroyOnLoad(gameObject);
 		}
-		else 
+		else
 			Destroy(gameObject);
 	}
 
@@ -34,6 +38,7 @@ public class LevelManager : MonoBehaviour
 	{
 		_score = 0;
 		_combo = 0;
+		_currentSong = -1;
 	}
 
 	void OnEnable()
@@ -46,9 +51,14 @@ public class LevelManager : MonoBehaviour
 		InputValidator.beatMissed -= ResetCombo;
 	}
 
+	public void SetCurrentSong(int index)
+	{
+		_currentSong = index;
+	}
+
 	public void StartLevel()
 	{
-		setupLevel?.Invoke(songCollection[0]);
+		setupLevel?.Invoke(songCollection[_currentSong]);
 		startLevel?.Invoke();
 	}
 
