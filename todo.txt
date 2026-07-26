@@ -1,0 +1,3 @@
+-make composer script and chart making functionnality
+-work on input validation with chart
+-make beat visualiser for level
