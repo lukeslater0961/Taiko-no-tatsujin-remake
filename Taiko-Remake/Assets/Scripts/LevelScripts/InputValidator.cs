@@ -32,7 +32,7 @@ public class InputValidator : MonoBehaviour
 		if (_metronome.activeBeat == -1)
 		{
 			currentInput = -1;
-			//reset combo
+			LevelManager.instance.ResetCombo();
 			return;
 		}
 		currentInput = inputType;

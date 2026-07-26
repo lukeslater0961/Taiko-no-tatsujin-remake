@@ -21,6 +21,11 @@ public class GameStateManager : MonoBehaviour
 			Destroy(gameObject);
 	}
 
+	public void HandleEscape()
+	{
+		currentState.HandleEscape();
+	}
+
 	public void SwitchState(BaseState state)
 	{
 		if (currentState != null)

@@ -7,6 +7,8 @@ public class MenuState : BaseState
 		Debug.Log("entered menu state");
 	}
 
+	public override void HandleEscape(){}
+
 	public override void OnExit(GameStateManager manager)
 	{
 		Debug.Log("exited menu state");

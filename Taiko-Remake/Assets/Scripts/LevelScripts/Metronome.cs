@@ -13,28 +13,11 @@ public class Metronome : MonoBehaviour
 	[SerializeField] float activeBeatEndPosition;
 	[SerializeField] float nextBeatPosition;
 	
-	/*void Awake()
-	{
-		beatDuration = 60f / bpm * 1000;
-		nextBeatPosition = beatDuration;
-
-		activeBeatStartPosition = nextBeatPosition - margin;
-		activeBeatEndPosition = nextBeatPosition + margin;
-		to be removed
-
-		LevelManager.setupLevel += SetupLevel;
-		LevelManager.startLevel += StartMetronome;
-		LevelManager.stopLevel += StopMetronome;
-
-		StartCoroutine(UpdateBeat());
-		//to be removed	
-	}*/
-
 	void OnEnable()
 	{
-		Debug.Log("Hello metro");
 		LevelManager.setupLevel += SetupLevel;
 		LevelManager.startLevel += StartMetronome;
+		LevelManager.pauseLevel += StopMetronome;
 		LevelManager.stopLevel += StopMetronome;
 	}
 
@@ -42,6 +25,7 @@ public class Metronome : MonoBehaviour
 	{
 		LevelManager.setupLevel -= SetupLevel;
 		LevelManager.startLevel -= StartMetronome;
+		LevelManager.pauseLevel -= StopMetronome;
 		LevelManager.stopLevel -= StopMetronome;
 	}
 
@@ -53,7 +37,7 @@ public class Metronome : MonoBehaviour
 
 		activeBeatStartPosition = nextBeatPosition - margin;
 		activeBeatEndPosition = nextBeatPosition + margin;
-	}//to be called when the level starts
+	}
 
 	public void StartMetronome()
 	{
@@ -71,7 +55,7 @@ public class Metronome : MonoBehaviour
 	{
 		while (true)
 		{
-			float position = MusicPlayer.instance.audioSource.time * 1000; 
+			float position = MusicPlayer.instance.CurrentTime * 1000; 
 
 			if (position >= activeBeatStartPosition)
 			{

@@ -62,12 +62,18 @@ public class LevelManager : MonoBehaviour
 		startLevel?.Invoke();
 	}
 
+	public void PauseLevel()
+	{
+		Debug.Log("pausing song");
+		pauseLevel?.Invoke();
+	}
+
 	public void StopLevel()
 	{
 		stopLevel?.Invoke();
 	}
 
-	void ResetCombo()
+	public void ResetCombo()
 	{
 		_combo = 0;
 	}

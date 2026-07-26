@@ -13,7 +13,10 @@ public class MusicPlayer : MonoBehaviour
 
 	void Awake()
 	{
-		instance = this;
+		if (instance == null)
+			instance = this;
+		else
+			Destroy(gameObject);
 		audioSource = GetComponent<AudioSource>();
 	}
 
@@ -22,7 +25,7 @@ public class MusicPlayer : MonoBehaviour
 		Debug.Log("hello muci player");
 		LevelManager.setupLevel += SetClip; 
 		LevelManager.startLevel += PlaySong;
-		LevelManager.pauseLevel += PauseSong;
+		LevelManager.pauseLevel += TogglePause;
 		LevelManager.stopLevel += StopSong;
 	}
 
@@ -30,7 +33,7 @@ public class MusicPlayer : MonoBehaviour
 	{
 		LevelManager.setupLevel -= SetClip; 
 		LevelManager.startLevel -= PlaySong;
-		LevelManager.pauseLevel -= PauseSong;
+		LevelManager.pauseLevel -= TogglePause;
 		LevelManager.stopLevel -= StopSong;
 	}
 
@@ -47,13 +50,17 @@ public class MusicPlayer : MonoBehaviour
 		audioSource.Play();
 	}
 
-	public void PauseSong()
+	public void TogglePause()
 	{
-		audioSource.Pause();
+		if (audioSource.isPlaying)
+			audioSource.Pause();
+		else
+			audioSource.Play();
 	}
 
 	public void StopSong()
 	{
+		Debug.Log("Hello player stop--");
 		audioSource.Stop();
 	}
 }

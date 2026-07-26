@@ -32,6 +32,7 @@ public class SceneLoader : MonoBehaviour
 		{
 			yield return null;
 		}
-        GameStateManager.instance.SwitchState(state);
+		if (state != null)
+			GameStateManager.instance.SwitchState(state);
 	}
 }

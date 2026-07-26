@@ -10,12 +10,14 @@ public class InputManager : MonoBehaviour
 	private InputAction _left;
 	private InputAction _right;
 	private InputAction _confirm;
+	private InputAction _back;
 
     void Awake()
     {
 		_left = InputSystem.actions.FindAction("leftbeat");
 		_right = InputSystem.actions.FindAction("rightbeat");
 		_confirm = InputSystem.actions.FindAction("enter");
+		_back = InputSystem.actions.FindAction("back");
 		
 		DontDestroyOnLoad(gameObject);
     }
@@ -25,9 +27,11 @@ public class InputManager : MonoBehaviour
 		_left.performed += _ => beatPressed?.Invoke(0);
 		_right.performed += _ => beatPressed?.Invoke(1);
 		_confirm.performed += _ => confirmPressed?.Invoke();
+		_back.performed += _ => GameStateManager.instance.HandleEscape();
 
 		_left.Enable();
 		_right.Enable();
 		_confirm.Enable();
+		_back.Enable();
 	}
 }
