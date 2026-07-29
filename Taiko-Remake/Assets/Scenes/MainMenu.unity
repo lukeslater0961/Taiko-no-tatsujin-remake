@@ -246,11 +246,11 @@ PrefabInstance:
     - target: {fileID: 5873269367839366690, guid: 263b61556ad254293a2b2ca5f8df63f1, type: 3}
       propertyPath: 'songCollection.Array.data[0]'
       value: 
-      objectReference: {fileID: 11400000, guid: fe39ee521ee1d476696f8997cbdb318b, type: 2}
+      objectReference: {fileID: 11400000, guid: 3c13d930d307347b79c0988207c7d6a8, type: 2}
     - target: {fileID: 5873269367839366690, guid: 263b61556ad254293a2b2ca5f8df63f1, type: 3}
       propertyPath: 'songCollection.Array.data[1]'
       value: 
-      objectReference: {fileID: 11400000, guid: 994cce6d4bba24e79a55b833989de6e1, type: 2}
+      objectReference: {fileID: 11400000, guid: bc03a7d818e594813bfaeb7b8ed2e2aa, type: 2}
     - target: {fileID: 8028415264445163386, guid: 263b61556ad254293a2b2ca5f8df63f1, type: 3}
       propertyPath: m_Name
       value: LevelManager

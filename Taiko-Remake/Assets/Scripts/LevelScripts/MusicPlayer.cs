@@ -9,7 +9,7 @@ public class MusicPlayer : MonoBehaviour
 	[SerializeField] 
 	private string		_clipName;
 	
-	public float CurrentTime => audioSource.time;
+	public float currentTime => audioSource.time;
 
 	void Awake()
 	{

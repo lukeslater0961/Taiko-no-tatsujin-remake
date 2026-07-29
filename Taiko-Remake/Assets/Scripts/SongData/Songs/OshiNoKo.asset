@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e8e0cb0a150f840fe83cef0f3c39d61b, type: 3}
-  m_Name: Song2
+  m_Name: OshiNoKo
   m_EditorClassIdentifier: Assembly-CSharp::SongData
-  songName: Angel's Halo
+  songName: Oshi No Ko
   beatChart: []
-  song: {fileID: 8300000, guid: 1af041d12965c4f7588c906a2c6af785, type: 3}
-  bpm: 203
+  song: {fileID: 8300000, guid: 72e9152f5735d42afa561e855215a87b, type: 3}
+  bpm: 166

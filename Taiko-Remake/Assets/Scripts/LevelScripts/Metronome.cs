@@ -9,7 +9,7 @@ public class Metronome : MonoBehaviour
 
 	[SerializeField] float lastBeat;
 	public float activeBeat { get; private set; } = -1f;
-	[SerializeField] float activeBeatStartPosition;
+	[SerializeField] public float activeBeatStartPosition;
 	[SerializeField] float activeBeatEndPosition;
 	[SerializeField] float nextBeatPosition;
 	
@@ -55,7 +55,7 @@ public class Metronome : MonoBehaviour
 	{
 		while (true)
 		{
-			float position = MusicPlayer.instance.CurrentTime * 1000; 
+			float position = MusicPlayer.instance.currentTime * 1000; 
 
 			if (position >= activeBeatStartPosition)
 			{

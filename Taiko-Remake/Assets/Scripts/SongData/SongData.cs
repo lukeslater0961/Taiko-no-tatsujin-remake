@@ -5,12 +5,14 @@ using System;
 [Serializable]
 public struct Beat{
 	public int input;
-    public float timestamp;
+    public float beatStartPosition;
+    public float beatEndPosition;
 
     public Beat(int input, float timestamp)
     {
         this.input = input;
-        this.timestamp = timestamp;
+        this.beatStartPosition = timestamp;
+        this.beatEndPosition = timestamp + 160;
     }
 }
 
